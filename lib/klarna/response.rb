@@ -1,6 +1,6 @@
 module Klarna
   class Response
-    attr_reader :body, :http_response, :headers
+    attr_reader :body, :http_response, :headers, :code
 
     def initialize(http_response)
       @http_response = http_response
